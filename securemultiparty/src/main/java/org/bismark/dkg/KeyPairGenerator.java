@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class KeyPairGenerator {
+//    generateKeyPairs method to generate a specified number of key pairs based on a given elliptic curve
 
     public static List<AsymmetricCipherKeyPair> generateKeyPairs(int numParties, String curveName) {
         List<AsymmetricCipherKeyPair> keyPairs = new ArrayList<>();
